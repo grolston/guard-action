@@ -5,7 +5,6 @@ A simple `GitHub Action` for AWS CloudFormation static code analysis to improve 
 
 ***The Action does not require AWS credentials!***
 
-cfn-security supports the following linting and security tools:
 
 ## Inputs
 
@@ -21,11 +20,9 @@ The scanner used to run security test. Options are `FedRAMP-Low`, `FedRAMP-Moder
 
 To get started simply add a workflow `.yml` file (name it whatever you would like) to your `.github/workflows` folder. [Refer to the documentation on workflow YAML syntax here.](https://help.github.com/en/articles/workflow-syntax-for-github-actions).
 
+## Example
 
-
-## Example cfn-lint Test
-
-The following example tests CloudFormation with cfn-lint:
+The following example tests CloudFormation with the `FedRAMP-Moderate` rule set:
 
 ```yaml
 name: ShiftLeft
