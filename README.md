@@ -14,7 +14,13 @@ The directory of the repo to scan the cloudformation templates.
 
 ### `rule_set`
 
-The AWS Guard rule set used to run security test. Options are `FedRAMP-Low`, `FedRAMP-Moderate`, `NIST800-53Rev4`, `NIST800-53Rev4`, `PCI-DSS-3-2-1`
+The AWS Guard rule set used to run security test. Options are:
+
+ * `FedRAMP-Low`
+ * `FedRAMP-Moderate`
+ * `NIST800-53Rev4`
+ * `NIST800-53Rev4`
+ * `PCI-DSS-3-2-1`
 
 ## Usage
 
@@ -31,7 +37,7 @@ on: [push]
 
 jobs:
   ## Guard rule set FedRAMP-Moderate
-  sast-cfn-lint:
+  sast-shift:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
