@@ -14,27 +14,27 @@ case $INPUT_RULE_SET in
 
   "FedRAMP-Moderate")
     echo -n "scanning with guard rule set RedRAMP-Moderate"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary"
     ;;
 
   "FedRAMP-Low")
     echo -n "...scanning with guard rule set FedRAMP-Low"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary"
     ;;
 
   "NIST800-53Rev4")
     echo -n "...scanning with guard rule set NIST800-53Rev4"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary"
     ;;
 
   "NIST800-53Rev5")
     echo -n "...scanning with guard rule set NIST800-53Rev5"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary"
     ;;
 
   "PCI-DSS-3-2-1")
     echo -n "...scanning with only guard rule set PCI-DSS-3-2-1"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary"
     ;;
 
   *)
