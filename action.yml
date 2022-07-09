@@ -1,4 +1,4 @@
-name: 'ShiftLeft'
+name: 'guard-action'
 description: 'Guard ShiftLeft'
 author: grolston
 inputs:
@@ -6,7 +6,7 @@ inputs:
     description: 'directory within git repo to scan cloudformation templates'
     required: true
   rule_set:
-    description: 'scanner used to run security test. Options are "FedRAMP-Low", "FedRAMP-Moderate", "NIST800-53Rev4", "NIST800-53Rev4", "PCI-DSS-3-2-1"'
+    description: 'scanner used to run security test. Options are a lot, please read documentation.
     required: true
 runs:
   using: docker
