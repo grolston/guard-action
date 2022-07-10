@@ -6,7 +6,7 @@ inputs:
     description: 'directory within git repo to scan cloudformation templates'
     required: true
   rule_set:
-    description: 'scanner used to run security test. Options are a lot, please read documentation.
+    description: 'scanner used to run security test. Options are a lot, please read documentation.'
     required: true
 runs:
   using: docker
