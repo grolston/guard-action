@@ -156,6 +156,7 @@ case $INPUT_RULE_SET in
 
   "FedRAMP-Moderate")
     echo -n "scanning with guard rule set FedRAMP-Moderate"
+    echo "Running: cfn-guard validate --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
     sh -c "cfn-guard validate --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard; echo 'scan complete'"
     echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
