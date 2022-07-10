@@ -15,109 +15,131 @@ case $INPUT_RULE_SET in
   "ABS-CCIGv2-Material")
     echo -n "...scanning with only guard rule set ABS-CCIGv2-Material"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "ABS-CCIGv2-Standard")
     echo -n "...scanning with only guard rule set ABS-CCIGv2-Standard"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "acsc-essential-8")
     echo -n "...scanning with only guard rule set acsc-essential-8"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "acsc-ism")
     echo -n "...scanning with only guard rule set acsc-ism"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "apra-cpg-234")
     echo -n "...scanning with only guard rule set apra-cpg-234"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "bnm-rmit")
     echo -n "...scanning with only guard rule set bnm-rmit"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-aws-benchmark-level-1")
     echo -n "...scanning with only guard rule set cis-aws-benchmark-level-1"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-aws-benchmark-level-2")
     echo -n "...scanning with only guard rule set cis-aws-benchmark-level-2"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-critical-security-controls-v8-ig1")
     echo -n "...scanning with only guard rule set cis-critical-security-controls-v8-ig1"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-critical-security-controls-v8-ig2")
     echo -n "...scanning with only guard rule set cis-critical-security-controls-v8-ig2"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-critical-security-controls-v8-ig3")
     echo -n "...scanning with only guard rule set cis-critical-security-controls-v8-ig3"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cis-top-20")
     echo -n "...scanning with only guard rule set cis-top-20"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cisa-ce")
     echo -n "...scanning with only guard rule set cisa-ce"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cmmc-level-1")
     echo -n "...scanning with only guard rule set cmmc-level-1"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cmmc-level-2")
     echo -n "...scanning with only guard rule set cmmc-level-2"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "cmmc-level-3")
     echo -n "...scanning with only guard rule set cmmc-level-3"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
   "cmmc-level-4")
     echo -n "...scanning with only guard rule set cmmc-level-4"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
   "cmmc-level-5")
     echo -n "...scanning with only guard rule set cmmc-level-5"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
-
   "enisa-cybersecurity-guide-for-smes")
     echo -n "...scanning with only guard rule set enisa-cybersecurity-guide-for-smes"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "ens-high")
     echo -n "...scanning with only guard rule set ens-high"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "ens-low")
     echo -n "...scanning with only guard rule set ens-low"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "ens-medium")
     echo -n "...scanning with only guard rule set ens-medium"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "FDA-21CFR-Part-11")
@@ -132,7 +154,7 @@ case $INPUT_RULE_SET in
 
   "FedRAMP-Moderate")
     echo -n "scanning with guard rule set FedRAMP-Moderate"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}; echo 'scan complete'"
     ;;
 
   "ffiec")
