@@ -158,7 +158,7 @@ case $INPUT_RULE_SET in
   "FedRAMP-Moderate")
     echo -n "scanning with guard rule set FedRAMP-Moderate"
     echo "Running: cfn-guard validate --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
-    sh -c "cfn-guard validate --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
+    sh -c "cfn-guard validate --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard -s"
     ;;
 
   "ffiec")
@@ -248,7 +248,7 @@ case $INPUT_RULE_SET in
   "NIST800-53Rev5")
     echo -n "...scanning with guard rule set NIST800-53Rev5"
     echo "Running: cfn-guard validate --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT} --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT} -p"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${INPUT_SHOW_SUMMARY} --output-format ${INPUT_OUTPUT_FORMAT}"
     ;;
 
   "nist-csf")
