@@ -145,16 +145,19 @@ case $INPUT_RULE_SET in
   "FDA-21CFR-Part-11")
     echo -n "...scanning with only guard rule set FDA-21CFR-Part-11"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "FedRAMP-Low")
     echo -n "...scanning with guard rule set FedRAMP-Low"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "FedRAMP-Moderate")
     echo -n "scanning with guard rule set FedRAMP-Moderate"
     sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary ${SHOW_SUMMARY} --output-format ${OUTPUT_FORMAT}; echo 'scan complete'"
+    echo -n "cfn-guard scan complete for ${INPUT_RULE_SET}"
     ;;
 
   "ffiec")
