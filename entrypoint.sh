@@ -207,7 +207,7 @@ case $INPUT_RULE_SET in
 
   "NIST800-53Rev5")
     echo -n "...scanning with guard rule set NIST800-53Rev5"
-    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary fail -p"
+    sh -c "cfn-guard validate --data ${INPUT_DATA_DIRECTORY} --rules /${INPUT_RULE_SET}.guard --show-summary all"
     ;;
 
   "nist-csf")

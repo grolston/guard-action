@@ -57,8 +57,8 @@ The AWS Guard rule set used to run security test. Options are:
 | NIST 800-171 | nist-800-171 |
 | NIST 800-172 | nist-800-172 |
 | NIST 800-181 | nist-800-181 |
-| NIST 800-53 Revision 4 | nist800-53rev4 |
-| NIST 800-53 Revision 5| nist800-53rev5 |
+| NIST 800-53 Revision 4 | NIST800-53Rev4 |
+| NIST 800-53 Revision 5| NIST800-53Rev5 |
 | NIST Cyber Security Framework (CSF)  | nist-csf |
 | NIST Privacy Framework | nist-privacy-framework |
 | New Zealand Government Communications Security Bureau (GCSB) Information Security Manual (NZISM) | nzism |
