@@ -102,7 +102,7 @@ name: sast
 on: [push]
 
 jobs:
-  ## Guard rule set FedRAMP-Moderate
+  ## Guard rule set cis-aws-benchmark-level-1
   sast-guard:
     runs-on: ubuntu-latest
     steps:
