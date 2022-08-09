@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM public.ecr.aws/r7q6h7y6/shiftleft:1.0.0
+FROM public.ecr.aws/r7q6h7y6/guard:1.0.1
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
